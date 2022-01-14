@@ -1,0 +1,108 @@
+.todo_outer {
+  background-color: #3b341f;
+  width: 100%;
+  height: 100vh;
+}
+.todo_header {
+  background-color: #100b00;
+  text-align: center;
+}
+.todo_header .todo_container h1 {
+  margin: 0px;
+  padding: 15px 30px;
+}
+.todo_container {
+  width: 100%;
+  max-width: 500px;
+  /* background-color: yellow; */
+  margin: 0 auto;
+  color: #efffc8;
+}
+.todo_body_container {
+  /* background-color: red; */
+  box-shadow: 1px 1px 10px rgba(255, 255, 255, 0.247);
+}
+.todo_list {
+  padding: 20px;
+
+  height: 50vh;
+  overflow-y: auto;
+  border-bottom: 1px solid rgba(165, 203, 195, 0.3);
+  scrollbar-width: none; /* Firefox */
+}
+.todo_each {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  margin: 5px 0px;
+  font-size: 20px;
+  border-bottom: 1px solid rgba(165, 203, 195, 0.2);
+  /* box-shadow: 1px 1px 0px 1px rgba(255, 255, 255, 0.247); */
+}
+.todo_data {
+  word-wrap: break-word;
+  word-break: break-all;
+  padding: 2px 5px;
+}
+.todo_each:hover {
+  /* padding: 5px; */
+  /* margin: 5px 0px; */
+  /* font-size: 20px; */
+  /* border-bottom: 1px solid rgba(165, 203, 195, 0.2); */
+  box-shadow: 0px 2px 1px 0px #84cb3336;
+}
+.todo_add_form {
+  display: flex;
+  gap: 8px;
+}
+/* ::-webkit-scrollbar {
+  display: none;
+} */
+.todo_each_not {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+.todo_input {
+  flex-grow: 1;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  background-color: #efffc8;
+  outline: none;
+}
+.todo_add {
+  padding: 20px;
+  height: 15vh;
+}
+
+.todo_btn,
+.todo_dlt_btn {
+  background-color: #85cb33;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  color: #efffc8;
+  /* height: 35px; */
+}
+.todo_btn:hover,
+.todo_dlt_btn:hover {
+  background-color: #77b62e;
+  box-shadow: 1px 1px 0px 1px rgba(255, 255, 255, 0.247);
+}
+.todo_btn {
+  padding: 10px 20px;
+}
+.todo_error {
+  color: red;
+  font-style: italic;
+  font-size: 14px;
+}
+.todo_no_error {
+  color: #85cb33;
+  font-style: italic;
+  font-size: 14px;
+}

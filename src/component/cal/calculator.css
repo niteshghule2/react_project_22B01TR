@@ -1,0 +1,17 @@
+.outer {
+  background-color: rgb(152, 175, 175);
+  display: flex;
+  justify-content: center;
+}
+.inner {
+  padding: 20px 50px 50px;
+  border-radius: 5px;
+  /* width: 100%;
+  max-width: 300px; */
+  text-align: center;
+  box-shadow: 1px 10px 10px rgb(0, 0, 0, 0.4);
+}
+.row {
+  text-align: left;
+  display: flex;
+}
